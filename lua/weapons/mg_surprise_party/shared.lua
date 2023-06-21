@@ -17,7 +17,7 @@ SWEP.Base = "mg_base"
 SWEP.GripPoseParameters = {"grip_ang_offset", "grip_vert_offset", "grip_vert_good_offset"}
 
 SWEP.PrintName = "Surprise Party"
-SWEP.Category = "Modern Warfare"
+SWEP.Category = "Modern Warfare - Blue Archive"
 SWEP.SubCategory = "Assault Rifles"
 SWEP.Spawnable = true
 SWEP.VModel = Model("models/zeron/weapons/v_surprise_party.mdl")

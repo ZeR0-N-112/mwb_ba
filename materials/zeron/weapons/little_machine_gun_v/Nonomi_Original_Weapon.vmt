@@ -1,0 +1,22 @@
+//if you don't know what a parameter does, visit:
+//https://developer.valvesoftware.com/wiki/$phong
+"VertexLitGeneric"
+{
+    "$basetexture" "zeron\weapons\little_machine_gun_v\Nonomi_Original_Weapon"
+    "$phongexponenttexture" "zeron\weapons\little_machine_gun_v\Nonomi_Original_Weapon_e"
+    "$lightwarptexture" "zeron\weapons\surprise_party\lw"
+    "$color2" "[.4 .4 .4]"
+    "$phong" "1"
+
+    "$phongboost" "1.8"
+    "$phongfresnelranges" "[1 1.5 2]"
+    "$phongalbedotint" "1"
+
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "1"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"
+
+}

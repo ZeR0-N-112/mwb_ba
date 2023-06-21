@@ -16,7 +16,7 @@ SWEP.Base = "mg_base"
 SWEP.GripPoseParameters = {"grip_ang_offset", "grip_vert_offset", "grip_barshort_offset", "grip_barcust_offset", "grip_vertpro_offset"}
 
 SWEP.PrintName = "Fresh Chocolate Mint"
-SWEP.Category = "Modern Warfare"
+SWEP.Category = "Modern Warfare - Blue Archive"
 SWEP.SubCategory = "Submachine Guns"
 SWEP.Spawnable = true
 SWEP.VModel = Model("models/kyo/weapons/v_fresh_chocolate_mint.mdl")
