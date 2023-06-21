@@ -167,5 +167,5 @@ SWEP.ViewModelOffsets = {
     AimKickMultiplier = 0.3
 }
 
-SWEP.Shell = "mwb_shelleject_556"
+SWEP.Shell = "ba_shelleject_556"
 
