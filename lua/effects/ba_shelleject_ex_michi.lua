@@ -1,6 +1,6 @@
 AddCSLuaFile()
 
-EFFECT.Model = Model("models/kyo/weapons/bullet/556_ba_spend.mdl")
+EFFECT.Model = Model("models/kyo/weapons/bullet/michi_amm_ba_spend.mdl")
 EFFECT.Scale = 1
 EFFECT.Force = 100
 EFFECT.Offset = Vector()
