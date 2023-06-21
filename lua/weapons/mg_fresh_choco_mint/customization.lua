@@ -55,9 +55,8 @@ end
 
 SWEP.Customization = {
     {"att_perk", "attachment_vm_sm_mpapa5_perk_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_rof"}, 
-
-    {"attachment_vm_sm_mpapa5_receiver"},
-
+	
+    {"ba_chocomint_rec",}, 
 
     {"att_sight", "att_vm_2x_west02_holo", "att_vm_2x_west02", "att_vm_reflex_02", "att_vm_minireddot01_tall", "att_vm_minireddot02_tall", "att_vm_minireddot03_tall",
     "att_vm_holo_west01", "att_vm_holo_west02", "att_vm_holo_east01", "att_vm_reflex_east01",

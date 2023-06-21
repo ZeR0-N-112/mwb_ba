@@ -20,7 +20,7 @@ SWEP.Category = "Modern Warfare"
 SWEP.SubCategory = "Submachine Guns"
 SWEP.Spawnable = true
 SWEP.VModel = Model("models/kyo/weapons/v_fresh_chocolate_mint.mdl")
-SWEP.WorldModel = Model("models/zeron/weapons/w_fresh_chocolate_mint.mdl")
+SWEP.WorldModel = Model("models/kyo/weapons/w_fresh_chocolate_mint.mdl")
 
 SWEP.Slot = 2
 SWEP.HoldType = "Rifle"
@@ -140,8 +140,8 @@ SWEP.WorldModelOffsets = {
 
 SWEP.ViewModelOffsets = {
     Aim = {
-        Angles = Angle(0, 0, 0),
-        Pos = Vector(0, 3, 0)
+        Angles = Angle(-0.87, 0, 0),
+        Pos = Vector(0, 3, -0.25)
     },
     Idle = {
         Angles = Angle(0, 0, 0),

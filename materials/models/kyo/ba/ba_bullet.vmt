@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\kyo\ba\bullet_c"
+                "$phongexponenttexture" "zeron\weapons\surprise_party\Asuna_Original_Weapon_e"
+                "$lightwarptexture" "zeron\weapons\surprise_party\lw"
+
+    "$color2" "[.3 .3 .3]"
+    "$phong" "1"
+    "$phongboost" "1.8"
+    "$phongfresnelranges" "[1 1.5 2]"
+    "$phongalbedotint" "1"
+
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "1"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"

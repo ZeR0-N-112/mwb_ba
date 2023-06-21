@@ -1,4 +1,4 @@
-ATTACHMENT.Base = "att_vm_vertgrip01"
+ATTACHMENT.Base = "att_grip"
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:PostProcess(weapon)
