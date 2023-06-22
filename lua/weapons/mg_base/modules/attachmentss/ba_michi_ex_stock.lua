@@ -1,5 +1,6 @@
 ATTACHMENT.Base = "att_stock"
 ATTACHMENT.Name = "Huehuehue"
+ATTACHMENT.Model = Model("models/kyo/weapons/att_michiru_rec.mdl")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
