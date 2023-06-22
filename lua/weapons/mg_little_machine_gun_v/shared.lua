@@ -144,7 +144,7 @@ SWEP.ViewModelOffsets = {
     AimKickMultiplier = 3
 }
 
-SWEP.Shell = "mwb_shelleject_762"
+SWEP.Shell = "ba_shelleject_556"
 
 local base = weapons.Get("mg_base")
 
