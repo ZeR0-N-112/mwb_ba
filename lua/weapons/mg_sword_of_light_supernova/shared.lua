@@ -32,7 +32,7 @@ SWEP.Category = "Modern Warfare - Blue Archive"
 SWEP.SubCategory = "Specials"
 SWEP.Spawnable = true
 SWEP.AdminOnly = true
-SWEP.VModel = Model("models/zeron/weapons/v_sword_of_light_supernova.mdl")
+SWEP.VModel = Model("models/kyo/weapons/v_sword_of_light_supernova.mdl")
 SWEP.WorldModel = Model("models/zeron/weapons/w_little_machine_gun_v.mdl")
 
 SWEP.Slot = 3
