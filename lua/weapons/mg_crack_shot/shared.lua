@@ -162,7 +162,7 @@ SWEP.ViewModelOffsets = {
     AimKickMultiplier = 0
 }
 
-SWEP.Shell = "mwb_shelleject_308"
+SWEP.Shell = "ba_shelleject_sniper"
 
 DEFINE_BASECLASS(SWEP.Base)
 

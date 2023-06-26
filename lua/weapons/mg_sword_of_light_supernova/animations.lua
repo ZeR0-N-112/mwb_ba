@@ -55,7 +55,7 @@ SWEP.Animations = {
     },
 
     ["spin_up"] = {
-        Sequences = {"spin_loop"},
+        Sequences = {"spin_up"},
         Length = 1,
         Fps = 30,
         NextSequence = "Idle",

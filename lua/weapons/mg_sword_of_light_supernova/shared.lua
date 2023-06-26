@@ -39,13 +39,12 @@ SWEP.Slot = 3
 SWEP.HoldType = "Shotgun"
 
 SWEP.Primary.Sound = Sound("mw19.dblmg.fire")
-SWEP.Primary.TrailingSound = Sound("mw19.dblmg.spin.loop")
 SWEP.Primary.Ammo = "357"
-SWEP.Primary.ClipSize = 30
-SWEP.Primary.Automatic = false
+SWEP.Primary.ClipSize = 45
+SWEP.Primary.Automatic = true
 SWEP.Primary.BurstRounds = 1
 SWEP.Primary.BurstDelay = 0
-SWEP.Primary.RPM = 120
+SWEP.Primary.RPM = 230
 SWEP.CanDisableAimReload = true
 
 SWEP.Trigger = {
@@ -53,7 +52,7 @@ SWEP.Trigger = {
     ReleasedSound = Sound("mw19.dblmg.spin.down"),
     PlayReleasedSoundRegardless = true,
     PressedAnimation = "spin_up",
-    Time = 1.45
+    Time = 0.45
 }
 
 SWEP.Reverb = {
@@ -74,7 +73,7 @@ SWEP.Reverb = {
 }
 
 SWEP.Customization = {}
-SWEP.FreezeInspectDelta = 0.3
+SWEP.FreezeInspectDelta = 0.45
 
 SWEP.Firemodes = {
     [1] = {
@@ -86,7 +85,7 @@ SWEP.Firemodes = {
 }
 SWEP.Cone = {
     Hip = 0.5, --accuracy while hip
-    Ads = 0, --accuracy while aiming
+    Ads = 0.5, --accuracy while aiming
     Increase = 0.015, --increase cone size by this amount every time we shoot
     AdsMultiplier = 0.25, --multiply the increase value by this amount while aiming
     Max = 3.15, --the cone size will not go beyond this size
@@ -106,8 +105,8 @@ SWEP.Bullet = {
     Damage = {350, 265}, --first value is damage at 0 meters from impact, second value is damage at furthest point in effective range
     EffectiveRange = 30, --in meters, damage scales within this distance
     Range = 1220, --in meters, after this distance the bullet stops existing
-    Tracer = false, --show tracer
-    NumBullets = 2, --the amount of bullets to fire
+    Tracer = true, --show tracer
+    NumBullets = 6, --the amount of bullets to fire
     PhysicsMultiplier = 0.75 --damage is multiplied by this amount when pushing objects
 }
 
@@ -131,12 +130,12 @@ SWEP.ViewModelOffsets = {
         Pos = Vector(0, 0, 0)
     },
     Aim = {
-        Angles = Angle(0, 0, 0),
-        Pos = Vector(-2, 0, 1)
+        Angles = Angle(2, 0, 5),
+        Pos = Vector(-2, 0, -2)
     },
     Idle = {
-        Angles = Angle(0, 0, 0),
-        Pos = Vector(0, 0, 0)
+        Angles = Angle(5, 0, 5),
+        Pos = Vector(2, 0, 2)
     },
 
     RecoilMultiplier = 1.2,
@@ -144,12 +143,12 @@ SWEP.ViewModelOffsets = {
     AimKickMultiplier = 3
 }
 
-SWEP.Shell = "ba_shelleject_556"
+SWEP.Shell = ""
 
 local base = weapons.Get("mg_base")
 
 function SWEP:HasAttachment(att)
-    if (att == "att_ammo_he") then
+    if (att == "att_ammo_db") then
         return true
     end
 
